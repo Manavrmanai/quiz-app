@@ -8,7 +8,7 @@ services:
 
        command: python manage.py makemigrations && python manage.py migrate && python manage.py runserver localhost:8000
        
-       container_name: agitated_hopper
+       container_name: project
 
        volumes:
         - .D:\django quiz project\virtual_enviornment\project
